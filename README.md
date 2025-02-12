@@ -5,6 +5,8 @@ MedMasters is an AI-driven healthcare platform that integrates **blood report in
 ---
 
 ## 🚀 **Features & Functionalities**
+![image](https://github.com/user-attachments/assets/ff78ba06-bb23-4107-8b6e-702e7be0a43b)
+
 
 ### 🩸 **Blood Report Inference**  
 Users can upload their blood reports, and the AI analyzes key health indicators such as:  
@@ -15,7 +17,6 @@ Users can upload their blood reports, and the AI analyzes key health indicators 
 
 **Admin Panel:** Stores all user reports and analysis for medical reference.  
 
-![image](https://github.com/user-attachments/assets/ff78ba06-bb23-4107-8b6e-702e7be0a43b)
 
 ---
 
