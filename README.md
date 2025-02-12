@@ -1,56 +1,97 @@
-# MedMasters - AI-Powered Healthcare Platform
+# **MedMasters – AI-Powered Healthcare Platform**  
+MedMasters is an AI-driven healthcare platform that integrates **blood report inference, personality assessment, radiology analysis, telemedicine recommendations, yoga pose tracking, and fitness tracking**. It provides **real-time AI-driven insights** to enhance medical diagnosis, wellness, and fitness tracking.  
 
-MedMasters is an advanced AI-driven healthcare platform designed to assist users with medical insights, diagnostics, and recommendations. It integrates multiple features, including blood report inference, an MBTI-based chatbot for personality assessment, radiology report analysis, telemedicine recommendations, yoga pose tracking, and an AI-powered fitness tracker.
+![image](https://github.com/user-attachments/assets/e4177e7f-a48d-4c74-9696-2d906ceebdcb)
+---
 
-## Features
+## 🚀 **Features & Functionalities**
 
-### 🏥 **Medical Diagnostics & Assistance**
-- **Blood Report Inference**: AI-based analysis of blood reports to provide insights.
-- **Radiology Inference**: Supports analysis for CT scans, MRI, and X-rays.
-- **Telemedicine Recommender**: Suggests medicines based on chief complaints and symptoms.
+### 🩸 **Blood Report Inference**  
+Users can upload their blood reports, and the AI analyzes key health indicators such as:  
+✔ Hemoglobin levels  
+✔ Cholesterol levels  
+✔ Liver and kidney function markers  
+✔ Risk predictions based on test results  
 
-### 🧠 **Personalized Healthcare**
-- **MBTI Chatbot**: Helps users understand their personality type and health tendencies with a personalized dashboard.
-- **Doctor Chatroom**: An admin panel where doctors can interact and discuss cases.
+**Admin Panel:** Stores all user reports and analysis for medical reference.  
 
-### 🏋️‍♂️ **Fitness & Wellness**
-- **Yoga Pose Recommender & Tracking**: AI-based feedback for yoga poses and corrections.
-- **AI Fitness Tracker**: Tracks exercise reps and calculates burned calories.
+![image](https://github.com/user-attachments/assets/ff78ba06-bb23-4107-8b6e-702e7be0a43b)
 
-## Tech Stack
-- **Backend**: Python, Flask
-- **Frontend**: React.js, Tailwind CSS
-- **Database**: Firebase, PostgreSQL
-- **AI/ML Models**: TensorFlow, OpenCV, Mediapipe
+---
 
-## Installation
-```bash
-# Clone the repository
-git clone https://github.com/Jatin1232212/Med-Masters.git
-cd Med-Masters
+### 🧠 **MBTI Personality Assessment**  
+Users can interact with an AI-powered **MBTI chatbot** to determine their personality type. The chatbot personalizes recommendations based on:  
+✔ Behavioral patterns  
+✔ Emotional tendencies  
+✔ Decision-making styles  
 
-# Install dependencies
-pip install -r requirements.txt  # For backend
-yarn install                     # For frontend
+**Personalized Dashboard:** Displays personality insights with recommendations for wellness and lifestyle improvements.  
 
-# Run the backend
-python app.py
 
-# Run the frontend
-yarn start
-```
+---
 
-## Usage
-1. Upload medical reports for AI-based inferences.
-2. Use the MBTI chatbot for personality insights.
-3. Get telemedicine recommendations based on symptoms.
-4. Track your fitness and yoga performance with AI.
+### 🏥 **Radiology Report Inference**  
+Users can upload **CT scans, MRIs, and X-rays**, and the AI provides detailed medical inferences, including:  
+✔ Identification of abnormalities  
+✔ Early detection of tumors, fractures, or infections  
+✔ Possible diagnoses based on medical imaging  
 
-## Contributing
-We welcome contributions! Please fork the repository and submit a pull request with your improvements.
+**Admin Panel:** Allows doctors to review AI-inferred reports and provide second opinions.  
 
-## License
-This project is licensed under the MIT License.
+![image](https://github.com/user-attachments/assets/715b684b-f520-42bb-a9c7-34a105258398)
 
-## 📎 Resources
-- **GitHub Repository**: [MedMasters on GitHub](https://github.com/Jatin1232212/Med-Masters)
+---
+
+### 💊 **Telemedicine Recommender**  
+Users can input symptoms, and MedMasters recommends medicines based on **chief complaints and AI-driven symptom matching**.  
+✔ Suggests **over-the-counter (OTC) medicines** for common illnesses  
+✔ Identifies potential risk factors that require doctor consultation  
+✔ Provides dosage and precautionary advice  
+
+![image](https://github.com/user-attachments/assets/be5ebeaf-91c8-4d43-8813-2645b5afd7dc)
+
+---
+
+### 🧘‍♂️ **Yoga Pose Recommendation & Tracking**  
+The AI suggests personalized yoga poses based on:  
+✔ User fitness level  
+✔ Health conditions  
+✔ MBTI personality insights  
+
+**Pose Tracking System:** Detects user posture using a camera and provides real-time feedback for correct alignment.  
+
+![image](https://github.com/user-attachments/assets/d54d5294-a0ac-4749-b109-0c3fa873bd03)
+
+---
+
+### 🎯 **AI-Fitness Tracker**  
+An **AI-powered reps counter and calorie calculator** for fitness enthusiasts. It tracks:  
+✔ Workout repetitions using pose estimation  
+✔ Calories burned in real time  
+✔ User progress via an interactive dashboard  
+
+**Admin Panel:** Logs user workout sessions and performance metrics for fitness tracking.  
+
+![image](https://github.com/user-attachments/assets/a4611145-6a82-48c3-9f2c-04fa34693a8c)
+
+---
+
+## 🌍 **Admin Panel & Chatroom for Doctors**  
+✔ Allows doctors to **chat with patients** in a secure room  
+✔ AI-powered **medical image classification** for brain tumor detection  
+✔ Stores patient **records, images, and reports** for analysis  
+✔ Provides **data visualization and insights** for healthcare professionals  
+
+---
+
+## 🔧 **Technologies Used**  
+✔ **Svelte Framework** (For lightweight and interactive UI)  
+✔ **AI-Based Image Classification** (For radiology & brain tumor detection)  
+✔ **Pose Estimation & Tracking** (For yoga & fitness)  
+✔ **Natural Language Processing (NLP)** (For chatbot & symptom-based medicine recommendations)  
+✔ **Speech-to-Text & Text-to-Speech** (For voice-enabled AI interaction)  
+✔ **Cloud-Based Storage & Processing** (For report analysis & health tracking)  
+✔ **Web-Based Admin Dashboard** (For managing patient data)  
+
+---
+
